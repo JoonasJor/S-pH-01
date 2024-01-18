@@ -1,6 +1,8 @@
 # pH mittari S-pH-01B anturia ja ESP32 käyttäen
 
-Tuotesivu - https://www.seeedstudio.com/RS485-pH-Sensor-S-pH-01B-p-4632.html
+Anturi - https://www.seeedstudio.com/RS485-pH-Sensor-S-pH-01B-p-4632.html
+
+ESP32 - https://www.sparkfun.com/products/20168
 
 Käyttöohjeet, komennot, yms. - https://files.seeedstudio.com/products/101990666/res/RS485%20&%200-2V%20pH%20Sensor%20(S-pH-01)%20-%20User%20Guide%20v2.0.pdf
 
