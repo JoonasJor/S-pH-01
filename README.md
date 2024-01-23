@@ -1,8 +1,11 @@
 # pH mittari S-pH-01B anturia ja ESP32 käyttäen
 
-Anturi - https://www.seeedstudio.com/RS485-pH-Sensor-S-pH-01B-p-4632.html
+#### Käytetyt komponentit:
 
-ESP32 - https://www.sparkfun.com/products/20168
+-S-pH-01B pH anturi - https://www.seeedstudio.com/RS485-pH-Sensor-S-pH-01B-p-4632.html  
+-SparkFun Thing Plus ESP32 WROOM (USB-C) - https://www.sparkfun.com/products/20168  
+-MAX485 UART <-> RS485 muunnin/lähetin-vastaanotin. Tämän tarvitsee kommunikointiin anturin kanssa.  
+-Painonappi ja piuhat  
 
 Käyttöohjeet, komennot, yms. - https://files.seeedstudio.com/products/101990666/res/RS485%20&%200-2V%20pH%20Sensor%20(S-pH-01)%20-%20User%20Guide%20v2.0.pdf
 
@@ -13,5 +16,4 @@ HUOM. Käyttöohjeissa lukee, että kalibroinnissa pitää kirjoittaa anturin re
 2. Odota hetki kun pH arvo tasoittuu.
 3. Siirrä painonapille menevä piuha ESP32 pinniin 15.
 4. Paina painonappia ja konsoli ilmoittaa, että pH 4 on kalibroitu.
-
-Tee sama pH arvoille 7 ja 10, ainoana erona se, että pH 7 pinni on 32 ja pH 10 pinni on 14.
+5. Tee sama pH arvoille 7 ja 10, ainoana erona se, että pH 7 pinni on 32 ja pH 10 pinni on 14.
