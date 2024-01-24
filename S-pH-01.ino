@@ -75,9 +75,9 @@ void setup()
 
   pinMode(ph_de_re_pin, OUTPUT);
   ph_modbus.begin(9600, SWSERIAL_8N1, ph_tx_pin, ph_rx_pin, false);
-  if (!ph_modbus) { // tarkistetaan onnistuiko EspSoftwareSerial objektin luominen
+  if (!ph_modbus) { // jos EspSoftwareSerial objektin luominen ei onnistunut niin pysäytetään ohjelma
     Serial.println("Invalid EspSoftwareSerial pin configuration, check config"); 
-    while (1) { // jos ei onnistunut niin ei jatketa ohjelman ajoa
+    while (1) {
       delay(1000);
     }
   } 
