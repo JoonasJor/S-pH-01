@@ -4,7 +4,7 @@
 
 -S-pH-01B pH anturi - https://www.seeedstudio.com/RS485-pH-Sensor-S-pH-01B-p-4632.html  
 -SparkFun Thing Plus ESP32 WROOM (USB-C) - https://www.sparkfun.com/products/20168  
--MAX485 UART <-> RS485 muunnin/lähetin-vastaanotin. Tämän tarvitsee kommunikointiin anturin kanssa.  
+-MAX485 UART <-> RS485 muunnin/lähetin-vastaanotin.
 -Painonappi ja piuhat  
 
 Käyttöohjeet, komennot, yms. - https://files.seeedstudio.com/products/101990666/res/RS485%20&%200-2V%20pH%20Sensor%20(S-pH-01)%20-%20User%20Guide%20v2.0.pdf
